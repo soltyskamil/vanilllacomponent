@@ -14,14 +14,13 @@ body{
   margin: 0;
   min-height: 100vh;
 }
-#tabsButtons{
+.tabsButtons{
   display: flex;
   flex-wrap: wrap;
 }
-#tabsContent{
+.tabsConfig{
   display: block;
   padding: 1rem;
-  background-color: ;
 }
 button{
   cursor: pointer;
@@ -35,7 +34,9 @@ button{
 button:hover{
   border-bottom: 1px solid black;
 }
-
+span{
+  display: block;
+}
 
 @media screen and (max-width: 800px) {
   
